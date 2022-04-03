@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= BioRhyme:wght@300 & family= League+Spartan:wght@100;200 & family= No passado & display=swap');
+
+/*
+#4D93E8
+#476AFF
+#5245F5
+#45F1F5
+#47CAFF
+*/
+
+:root{
+    --cor1: #4D93E8;
+    --Cor2: #476AFF;
+    --Cor3: #5245F5;
+    --Cor4: #45F1F5;
+    --Cor5: #47CAFF; 
+}
+
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-color: #ced6f0;
+    font-family:'BioRhyme', serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--Cor3), var(--Cor5));
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: #5245F5;
+    padding: 10px;
+    border: #121213;
+}
+
+nav > a{
+    color: rgb(15, 15, 15);
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+nav > a:hover{
+    background-color: #121213;
+    color: #8b83f7;
+}
+
+main{
+    background-color: #ced6f0;
+    margin: auto;
+    min-width: 320px;
+    line-height: 30px;
+}
+
+h1{
+    text-shadow: 4px 4px 10px black;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+main p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 20px 0px;   
+}
+
+pre{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside{
+    background-color: #5245F5;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    text-align: justify;
+    
+} 
+
+aside > h3{
+    text-align: center;
+    background-color: #84b2c0;
+    color: rgb(18, 18, 19);
+    border-radius: 10px 10px 0px 0px;
+    margin: -15px -10px 0px -10px;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: #7d7be477;
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+footer > a{
+color: #0a0a0a;
+text-decoration: none;
+font-weight: bold;
+}
+
+img{
+    width: 30%;
+    border: 2px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    padding: 2px;
+    position: relative;
+    left: 325px;
+}
+
+figcaption{
+    position: relative;
+    left: 325px;
+    font-size: 15px;
+}
+
+iframe{
+    position: relative;
+    left: 300px;
+}
